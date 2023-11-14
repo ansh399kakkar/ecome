@@ -1,4 +1,4 @@
-{
+{"homepage":"https://ansh399kakkar.github.io/ecom",
   "name": "ecom",
   "version": "0.1.0",
   "private": true,
@@ -24,6 +24,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build -b main",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
